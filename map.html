@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Champaign Neighborhoods Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7laS21G-dKT-qBVbs0kSmQAyUr0IgjoU&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <style type="text/css">
+      #map {
+        height: 100%;
+      }
+
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    
+    <script src="convex_hulls.js"></script>
+    <script src="road_regions.js"></script>
+    <script src="agnes_road_regions.js"></script>
+	<script src="feature_color_map.js"></script>
+    <script src="map.js"></script>
+    
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
+</html>
