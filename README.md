@@ -1,5 +1,5 @@
 # Hongyi's code for Community Mapping (Spring 2021)
-LINK TO REPO
+https://github.com/ZXQYC/neighborhood-clustering
 
 This repo contains all of the code I used for creating clustering algorithms for the Community Mapping project over the Spring 2021 semester.
 
